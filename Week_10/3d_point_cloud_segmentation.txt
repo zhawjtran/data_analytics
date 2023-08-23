@@ -1,11 +1,8 @@
-# Additional reading:
-# http://www.open3d.org/docs/latest/tutorial/Basic/pointcloud.html
+# For additional infos see:
 # https://towardsdatascience.com/3d-data-processing-with-open3d-c3062aadc72eImporting open3d and all other necessary libraries
 
 # For data see:
 # https://sketchfab.com/3d-models/bayard-station-valve-house-6a2b26c8e2c14ba299cd96d73e8bb516
-# https://sketchfab.com/3d-models/countryside-landscape-f96fc805c07145e0b5f07d2f1fcc3109
-# https://sketchfab.com/3d-models/small-village-landscape-c4f921076be64dfa841ddd12405aa640
 
 import os
 import copy
