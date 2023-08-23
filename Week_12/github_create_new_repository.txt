@@ -1,0 +1,72 @@
+#----------------------------------------------------------
+# Step 1: Create a local git repository
+#------------------------------------------------------------------
+# Install Git on your computer and open Git Bash
+# 
+
+# Create a folder 'data_analytics_github' in your weekly working directory
+cd U:/Lektionen/DA_HS2022/KK/Week_12
+mkdir data_analytics_github
+
+# cd in the new folder
+cd data_analytics_github
+
+# Initialize the local git repository
+git init
+
+#------------------------------------------------------------------
+# Step 2: Add files to the local git repository
+#------------------------------------------------------------------
+# Manually copy the following files to 'data_analytics_github'
+# You can find the Jupyter notebook on Moodle
+convolutional_neural_network_MNIST.ipynb
+
+# Use the git status command to see which files git knows exist
+git status
+
+#------------------------------------------------------------------
+# Step 3: Add the file to the local staging environment
+#------------------------------------------------------------------
+git add convolutional_neural_network_MNIST.ipynb
+git status
+
+# Sometimes an error occurs like 'Another git process seems to be running ...'
+# If this happens, delete the index.lock file first by typing in your Git Bash:
+# rm .git/index.lock
+
+#------------------------------------------------------------------
+# Step 4: Create a commit
+#------------------------------------------------------------------
+git commit -m "This is my commit!"
+
+#------------------------------------------------------------------
+# Step 5: Manually create a new remote repository on GitHub
+#------------------------------------------------------------------
+# Go to GitHub and manually create a new repository 'data_analytics_github'
+# For this example, do not initialize the new remote repository with a README file!!!
+# After the GitHub repository has been created, type the following commands in you local Git Bash
+
+git remote add origin https://github.com/mario-gellrich-zhaw/data_analytics_github.git
+
+git branch -M main
+git push -u origin main
+
+# Sometimes an error occurs like 'error: remote origin already exists' 
+# If this happens, type in your local Git Bash:
+git remote rm origin
+
+# --> Go to your GitHub repository and click on the name of the Jupyter notebook to show its content
+
+#------------------------------------------------------------------
+# Step 6: Push local changes to update the GitHub repository
+#------------------------------------------------------------------
+# Make some changes to the Jupyter notebook in your local repo
+# Add the file to the local staging environment and commit changes
+git add convolutional_neural_network_MNIST.ipynb
+git status
+git commit -m "I made some changes ..."
+
+# Push the changes of your local repo to GitHub
+git push -u origin main
+
+# --> Go to GitHub and check the changes
