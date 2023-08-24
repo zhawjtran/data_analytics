@@ -3,17 +3,17 @@
 #------------------------------------------------------------------------------------
 
 #------------------------------------------------------------------------------------
-# Open your Anaconda console and activate your conda environment
+# Activate your conda environment
 #------------------------------------------------------------------------------------
 
 conda activate daenv
 
 #------------------------------------------------------------------------------------
-# Navigate to your folder 'flask_iris_model'
+# Navigate to your folder 'flask_iris_model_example'
 #------------------------------------------------------------------------------------
 
 # e.g.:
-cd U:/Lektionen/DA_HS2022/KK/Week_12/flask_iris_model
+cd U:/Lektionen/DA_HS2022/KK/Week_12/flask_iris_model_example
 
 #------------------------------------------------------------------------------------
 # Run the knn model to create and save a machine learning model

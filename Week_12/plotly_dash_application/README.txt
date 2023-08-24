@@ -5,6 +5,7 @@
 #--------------------------------------------------
 # Install dash
 #--------------------------------------------------
+
 --> install dash in your activated environment
     For this, open the Anaconda console and type
     pip install dash==2.7.0
