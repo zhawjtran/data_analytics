@@ -14,7 +14,7 @@ from matplotlib.figure import Figure
 client = Blueprint('client', __name__, template_folder='templates', static_url_path='/static')
 
 # Flask route
-@client.route('/<int:observations>/', methods=['GET'])
+@client.route('/<int:observations>', methods=['GET'])
 def home(observations):
     title = current_app.config['TITLE']
     plot = plot_observations(observations)
