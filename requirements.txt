@@ -13,8 +13,10 @@ folium
 scikit-learn
 numpy
 opencv-python
-plyfile
 nltk
 wordcloud
 tensorflow
 open3d
+flask_wtf
+joblib
+dash
