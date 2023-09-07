@@ -1,7 +1,7 @@
 # Clear git cache
 # cd U:/Lektionen/DA_HS2023/data_analytics
 # git rm -r --cached .
-# git rm -r --cached ./FOLDERNAME/
+# git rm -r --cached ./foldername/
 # git rm --cached <filename>
 
 # Ignore all .docx - files
@@ -90,7 +90,7 @@ Week_12/flask_dash_example.png
 
 # Ignore single folders (if required)
 # Week_01
-# Week_02
+Week_02
 Week_03
 Week_04
 Week_05
