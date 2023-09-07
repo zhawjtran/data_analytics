@@ -25,6 +25,7 @@ Week_01/apartment_data_winterthur.csv
 Week_02/apartments_data_preparation_zuerich.ipynb
 Week_02/apartments_data_preparation_zuerich.html
 Week_02/apartments_data_prepared.csv
+Week_02/supermarkets_data_prepared.csv
 Week_02/apartments_database.db
 Week_02/supermarkets_database_Python.ipynb
 Week_02/supermarkets_database_Python.html
@@ -32,7 +33,7 @@ Week_02/supermarkets_database_Python.html
 # Week_03
 Week_03/apartments_data_prepared.csv
 Week_03/apartments_data_enriched.csv
-Week_03/municipality_data_with_mean_taxable_income.xlsx
+Week_03/municipality_data_with_taxable_income.xlsx
 Week_03/apartments_data_preparation_zuerich.html
 Week_03/combining_and_organizing_data.html
 
@@ -61,6 +62,7 @@ Week_07/analysis_of_variance_ANOVA.html
 # Week_07
 Week_07/analysis_of_contingency_tables.html
 Week_07/correlation_analysis.html
+chi_squared_test_by_hand.txt
 
 # Week_08
 Week_08/linear_regression.html
