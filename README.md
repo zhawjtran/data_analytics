@@ -1,4 +1,4 @@
-# Repository of the Data Analytics module at ZHAW.
+# Repository of the Data Analytics module at ZHAW
 ### Please note that the material will always be available shortly before the course starts.
 
 - Week_01
