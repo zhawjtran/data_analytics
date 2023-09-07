@@ -1,6 +1,8 @@
 # Clear git cache
 # cd U:/Lektionen/DA_HS2023/data_analytics
 # git rm -r --cached .
+# git rm -r --cached ./FOLDERNAME/
+# git rm --cached <filename>
 
 # Ignore all .docx - files
 *.docx
