@@ -60,12 +60,12 @@ Week_05/table_ nearest_neighbor_analysis.png
 # Week_06
 Week_06/population_and_samples.html
 Week_06/unpaired_two_sample_t-test.html
-Week_07/analysis_of_variance_ANOVA.html
+Week_06/analysis_of_variance_ANOVA.html
 
 # Week_07
 Week_07/analysis_of_contingency_tables.html
 Week_07/correlation_analysis.html
-chi_squared_test_by_hand.txt
+Week_07/chi_squared_test_by_hand.txt
 
 # Week_08
 Week_08/linear_regression.html
@@ -88,6 +88,8 @@ Week_12/flask_simple_application.png
 Week_12/flask_matplotlib_example.png
 Week_12/flask_iris_model_example.png
 Week_12/flask_dash_example.png
+Week_12/convolutional_neural_network_MNIST.ipynb
+Week_12/project_folder
 
 # Ignore single folders
 # Week_01
