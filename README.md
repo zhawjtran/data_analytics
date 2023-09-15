@@ -26,7 +26,7 @@
 ### git rm --cached <filename>
 
 ### Branching
-### git checkout -b week_01  # creates a new branch 'week_01'
+### git checkout -b week_01  # creates and changes to the new branch 'week_01'
 ### git checkout main        # returns to main branch
 
 ### see: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
