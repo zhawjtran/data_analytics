@@ -25,6 +25,11 @@
 #### git rm -r --cached ./foldername
 #### git rm --cached <filename>
 
+#### Rebase (rebase local changes on top of the changes from the remote repo)
+#### git config pull.rebase true
+#### git pull --tags origin main
+#### git push --force
+
 #### Branching
 #### git checkout -b week_01  # creates and changes to the new branch 'week_01'
 #### git checkout main        # returns to main branch
