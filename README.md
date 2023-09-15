@@ -20,7 +20,7 @@
 ### Useful git commands 
 
 #### Clear git cache
-#### cd U:/Lektionen/DA_HS2023/data_analytics
+#### cd U:/Lektionen/DA_HS2023/data_analytics # your working directory
 #### git rm -r --cached .
 #### git rm -r --cached ./foldername
 #### git rm --cached <filename>
