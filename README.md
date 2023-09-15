@@ -25,7 +25,7 @@
 # git rm -r --cached ./foldername
 # git rm --cached <filename>
 
-# Branching and merging
+# Branching
 # git checkout -b week_01  # creates a new branch 'week_01'
 # git checkout main        # returns to main branch
 
