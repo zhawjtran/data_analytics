@@ -29,7 +29,7 @@
 #### git config pull.rebase true
 #### git pull --tags origin main
 
-#### Force push and pull
+#### Force push and pull to/from remote repo
 #### git push --force
 #### git pull --force
 
