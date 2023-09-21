@@ -10,7 +10,7 @@ Repository of the Data Analytics module at ZHAW.
 
 Click the green button above and create a code space. Everything should be set up as needed.
 
-### Locally
+### Locally (only if you need a local repository)
 
 Assuming you have
 
@@ -116,22 +116,3 @@ git pull --force
 git checkout -b week_01  # creates and changes to the new branch 'week_01'
 git checkout main        # returns to main branch
 ```
-
-For example, you could manage your branches like this:
-
-```mermaid
-%%{init: { 'theme': 'neutral' } }%%
-gitGraph
-       commit id:"Initial commit"
-       branch week_01
-       commit id:"Your work"
-       commit id:"for the"
-       commit id:"weekly exercise"
-       checkout main
-       commit id:"New course material"
-       merge week_01
-       branch week_02
-       commit id:"Your work..."
-```
-
-Check out the Git Book on [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
