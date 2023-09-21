@@ -6,7 +6,7 @@ Repository of the Data Analytics module at ZHAW.
 
 ## Getting Started
 
-### GitHub Codespaces
+### GitHub Codespaces (our working environment for the course)
 
 Create a new codespace o GitHub. Everything should be set up as needed.
 
