@@ -10,7 +10,7 @@ Repository of the Data Analytics module at ZHAW.
 
 Click the green button above and create a code space. Everything should be set up as needed.
 
-### Locally (use only, if you need clone of the GitHub repo on your local computer)
+### Locally (use only, if you need a clone of the GitHub repo on your local computer)
 
 Assuming you have
 
