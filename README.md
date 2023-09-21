@@ -8,7 +8,7 @@ Repository of the Data Analytics module at ZHAW.
 
 ### GitHub Codespaces
 
-Click the green button above and create a code space. Everything should be set up as needed.
+Create a new codespace o GitHub. Everything should be set up as needed.
 
 ### Locally (use only, if you need a clone of the GitHub repo on your local computer)
 
