@@ -88,6 +88,8 @@ cd /workspaces/data_analytics/Week_01  # your working directory (example on Linu
 
 ### Clear git cache
 
+You can clear your git history (remove files and folders from the Git index) by using the following commands
+
 ```bash
 git rm -r --cached .
 git rm -r --cached ./foldername
