@@ -94,13 +94,12 @@ git rm -r --cached ./foldername
 git rm --cached <filename>
 ```
 
-### Rebase
-
-Rebase local changes on top of changes from the remote repository.
+### Push to remote repository
 
 ```bash
-git config pull.rebase true  # run this once for working directory
-git pull --tags origin main  # updates codebase
+git remote -v                                 # verify remote url
+git remote set-url origin <url_of_your_fork>  # set remote url
+git push origin main                          # push to remote
 ```
 
 ### Force Push and Pull to/from remote repository
@@ -110,14 +109,22 @@ git push --force
 git pull --force
 ```
 
-### Branching
+### Rebase
+
+Rebase local changes on top of changes from the remote repository.
 
 ```bash
-git branch                                    # shows current branch
-git checkout main                             # switch to main branch
-git remote -v                                 # verify remote url
-git push origin main                          # push to remote
-git remote set-url origin <url_of_your_fork>  # set remote url
-git checkout -b week_01                       # creates and changes to the new branch 'week_01'
-git checkout main                             # returns to main branch
+git config pull.rebase true  # run this once for working directory
+git pull --tags origin main  # updates codebase
+```
+
+### Branching
+
+Create and change branches
+
+```bash
+git branch                 # shows current branch
+git checkout main          # returns to main branch
+git checkout -b week_01    # creates and changes to the new branch 'week_01'
+git checkout main          # returns to main branch
 ```
