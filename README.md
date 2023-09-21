@@ -83,7 +83,7 @@ This is usually the case when you work with the integrated terminal of Visual St
 If not, use this command:
 
 ```bash
-cd U:\Lektionen\DA_HS2023\data_analytics  # your working directory
+cd /workspaces/data_analytics/Week_01  # your working directory (example on Linux)
 ```
 
 ### Clear git cache
