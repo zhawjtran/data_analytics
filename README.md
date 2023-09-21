@@ -113,12 +113,11 @@ git pull --force
 ### Branching
 
 ```bash
-git branch              # shows current branch
-git checkout main       # switch to main branch
-git remote -v           # verify remote url
-git push origin main    # push to remote
+git branch                                    # shows current branch
+git checkout main                             # switch to main branch
+git remote -v                                 # verify remote url
+git push origin main                          # push to remote
 git remote set-url origin <url_of_your_fork>  # set remote url
-
-git checkout -b week_01  # creates and changes to the new branch 'week_01'
-git checkout main        # returns to main branch
+git checkout -b week_01                       # creates and changes to the new branch 'week_01'
+git checkout main                             # returns to main branch
 ```
