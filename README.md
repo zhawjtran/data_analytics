@@ -1,6 +1,6 @@
 # Data Analytics
 
-Repository of the Data Analytics module at ZHAW.
+Repository of the Data Analytics module at ZHAW
 
 > ℹ️ **NOTICE:** Please note that the weekly material will always be available shortly before the course starts.
 
@@ -10,7 +10,7 @@ Repository of the Data Analytics module at ZHAW.
 
 Create a new codespace on GitHub. Everything should be set up as needed.
 
-### Locally (use only, if you need a clone of the GitHub repo on your local computer)
+### Locally (use only, if you need a clone of the GitHub repository on your local computer)
 
 Assuming you have
 
@@ -30,8 +30,8 @@ where `<repository-url>` is the url of your fork (click green button above, Loca
 After that, run:
 
 ```bash
-cd data_analytics                # go to the working directory
-pip install -r requirements.txt  # installs all python requirements
+cd /workspaces/data_analytics    # go to your working directory
+pip install -r requirements.txt  # installs the required Python libraries
 ```
 
 ## Folder Structure
@@ -78,12 +78,11 @@ Data Analytics
 ## Useful git commands 
 
 Before running these commands, make sure you're in your working directory.
-This is usually the case when you work with the integrated terminal of Visual Studio Code (and Devcontainers).
 
 If not, use this command:
 
 ```bash
-cd /workspaces/data_analytics/Week_01  # your working directory (example on Linux)
+cd /workspaces/data_analytics  # your working directory
 ```
 
 ### Clear git cache
