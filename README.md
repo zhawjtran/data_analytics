@@ -19,7 +19,7 @@ Assuming you have
 - [Python3](https://www.python.org/downloads/)
 - [Created a fork](https://github.com/mario-gellrich-zhaw/data_analytics/fork) of this repository and [set up an SSH key](https://docs.github.com/en/github-ae@latest/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-you can clone this repository to your computer using:
+You can clone this repository to your local computer using:
 
 ```
 git clone <repository-url>
