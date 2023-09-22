@@ -75,7 +75,7 @@ Data Analytics
 └── requirements.txt
 ```
 
-## Useful git commands 
+## Useful git commands
 
 Before running these commands, make sure you're in your working directory.
 
