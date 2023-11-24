@@ -10,7 +10,7 @@
 # Ignore all .obj - files
 *.obj
 
-# Ignore all output-files of weekly exercises
+# Ignore output-files of weekly exercises
 
 # Week_01
 Week_01/supermarkets.json
