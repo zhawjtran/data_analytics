@@ -10,6 +10,9 @@
 # Ignore all .obj - files
 *.obj
 
+# Ignore all .zip - files
+*.zip
+
 # Ignore output-files of weekly exercises
 
 # Week_01
